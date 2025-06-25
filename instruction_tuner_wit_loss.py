@@ -116,7 +116,7 @@ def parse_args():
 
     # Parameters related to loading data
     parser.add_argument("--load_data_from_disk", action="store_true", help="Whether to load data from disk")
-    parser.add_argument("--dataset_name_or_path", default="kowndinya23/flan2022-mistral-512-150K-random", help="Dataset name(in 🤗 datasets hub) or path to a local dataset")
+    parser.add_argument("--dataset_name_or_path", default="flan2022-mistral-512-150K-random", help="Dataset name(in 🤗 datasets hub) or path to a local dataset")
     
     # Parameteres related to loading the model(including BitsAndBytes configuration)
     parser.add_argument("--trust_remote_code", action="store_true", help="Whether to trust remote code")
