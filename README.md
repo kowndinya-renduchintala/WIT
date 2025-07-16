@@ -66,6 +66,7 @@ If you use *WIT* in your research, please cite our preprint that is accepted to 
   title={On the Effect of Instruction Tuning Loss on Generalization},
   author={Chatterjee, Anwoy and Renduchintala, HSVNS Kowndinya and Bhatia, Sumit and Chakraborty, Tanmoy},
   journal={arXiv preprint arXiv:2507.07817},
+  url={https://arxiv.org/abs/2507.07817}, 
   year={2025}
 }
 ```
