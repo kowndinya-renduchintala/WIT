@@ -4,7 +4,7 @@ MODEL_NAME_OR_PATH="meta-llama/Meta-Llama-3-8B"
 MODEL_LABEL="llama-3-8b"
 LEARNING_RATE=2e-5
 NUM_EPOCHS=1
-CONFIG_FILE_NAME=fsdp_config.yaml
+CONFIG_FILE_NAME=config_fsdp.yaml
 TRAIN_FILE=instruction_tuner_wit_loss_fsdp.py
 
 LAMBDA_P=0.4
